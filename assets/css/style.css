@@ -242,17 +242,6 @@ h5.soustitrebg5
   transition: 1s;
 }
 
-#imgSaturne
-{
-  width: 600px;
-}
-
-div.planetedroite
-{
-  display: flex;
-  justify-content: flex-end;
-}
-
 .imgplanete:hover
 {
   transform: scale(1.1,1.1) rotate(20deg);
@@ -268,55 +257,6 @@ div#bg6
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-}
-
-
-#mercure
-{
-  height: 350px;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  margin: 5%;
-}
-
-
-.texte_mercure
-{
-  display: flex;
-  flex-direction: column;
-  font-size: 10px;
-  color: white;
-  border: 1px solid #2c2c2b;
-  background-color: #353131;
-  width: 30%;
-  padding: 2%;
-  border-radius: 15px;
-  box-shadow: 0px 0px 20px;
-  font-family: 'Pangolin', cursive;
-  /*background-image: url("../image/2.jpg");*/
-}
-
-.soustitrebg6
-{
-  color : #d4ac0d;
-}
-
-.titreplanetes
-{
-  color: #f4f6f6;
-}
-
-.carteplanete
-{
-  width: 30%;
-}
-
-.scrollbar
-{
-  height: 100%;
-  overflow: auto;
-  padding-right: 5px;
 }
 
 div#bg7
