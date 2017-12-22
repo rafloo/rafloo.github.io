@@ -26,19 +26,23 @@ html, body {
     }
 }
 
-/*homepage*/
-
-div#bg1
+.bg
 {
-  height: 100vh;
   background-color: black;
   background-image: url("../image/1.jpg");
   background-size: cover;
   background-position: center center;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   padding-bottom: 2em;
+}
+
+/*homepage*/
+
+div#bg1
+{
+  height: 100vh;
+  justify-content: space-around;
 }
 
 #bg1>h1
@@ -62,12 +66,6 @@ div#bg1
 
 div#bg3
 {
-  background-color: black;
-  background-image: url("../image/1.jpg");
-  background-size: cover;
-  /*background-position: center center;*/
-  display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
@@ -123,12 +121,6 @@ span.reponse
 div#bg2
 {
   height: 100vh;
-  background-color: black;
-  background-image: url("../image/1.jpg");
-  background-size: cover;
-  /*background-position: center center;*/
-  display: flex;
-  flex-direction: column;
   justify-content: flex-end;
 }
 
@@ -136,14 +128,9 @@ div#bg2
 
 div#bg4
 {
-  background-color: black;
-  background-image: url("../image/1.jpg");
-  background-size: cover;
-  /*background-position: center center;*/
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+
 }
+
 h1 .spanSolaire
 {
   color:  #d4ac0d ;
@@ -183,13 +170,6 @@ div.prestSolaire
 
 div#bg5
 {
-  background-color: black;
-  background-image: url("../image/1.jpg");
-  background-size: contain;
-  background-repeat: repeat;
-  /*background-position: center center;*/
-  display: flex;
-  flex-direction: column;
   padding: 50px 0;
 }
 #bg5 h1
@@ -249,30 +229,17 @@ h5.soustitrebg5
 
 .planete_container
 {
-  margin: 0px 10px;
+  margin: 0px 50px;
   display: flex;
 }
 
 div#bg6
 {
-  background-color: black;
-  background-image: url("../image/1.jpg");
-  background-size: contain;
-  background-repeat: repeat;
-  /*background-position: center center;*/
-  display: flex;
-  flex-direction: column;
   justify-content: flex-end;
 }
 
 div#bg7
 {
   height: 100vh;
-  background-color: black;
   background-image: url("../image/2.jpg");
-  background-size: cover;
-  /*background-position: center center;*/
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
 }
